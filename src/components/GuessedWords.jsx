@@ -16,8 +16,8 @@ const GuessedWords = (props) => {
       </tr>
     ))
     content = (
-      <table data-test="guessed-words">
-        <thead>
+      <table data-test="guessed-words" className="table table-sm">
+        <thead className="thead-light">
           <tr>
             <th>Guess</th>
             <th>Matching letters</th>
